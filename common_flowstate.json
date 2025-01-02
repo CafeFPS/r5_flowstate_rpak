@@ -217,10 +217,10 @@
       "_type": "matl",
       "_path": "material/models/flowstate_custom/needler/amogus_body_sknp.rpak"
     },
-    // {
-      // "_type": "matl",
-      // "_path": "material/models/flowstate_custom/oddball/eyes_sknp.rpak"
-    // },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/oddball/eyes_sknp.rpak"
+    },
     {
       "_type": "matl",
       "_path": "material/models/flowstate_custom/oddball/main_sknp.rpak"
@@ -285,8 +285,6 @@
       "_type": "matl",
       "_path": "material/models/humans_r5/pilots_r5/dummy/dummy_head_sknp.rpak"
     },
-	
-	
     {
       "_type": "matl",
       "_path": "material/models/robotics_r5/marvin/marvin_v1_chassis_screen_sknp.rpak"
@@ -875,17 +873,17 @@
       "_type": "mdl_",
       "_path": "mdl/Weapons/w_raygun/w_raygun.rmdl"
     },
-    // // {
-      // // "_type": "mdl_",
-      // // "_path": "mdl/flowstate_custom/ptpov_oddball.rmdl",
-      // // "$animrigs": [
-        // // "animrig/ptpov_statue_mirage/ptpov_statue_mirage.rrig"
-      // // ]
-    // // },
-    // // {
-      // // "_type": "mdl_",
-      // // "_path": "mdl/flowstate_custom/w_oddball.rmdl"
-    // // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/ptpov_oddball.rmdl",
+      "$animrigs": [
+        "animrig/ptpov_statue_mirage/ptpov_statue_mirage.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/w_oddball.rmdl"
+    },
     {
       "_type": "mdl_",
       "_path": "mdl/flowstate_custom/ptpov_flagpole.rmdl",
