@@ -997,10 +997,10 @@
       "_type": "mdl_",
       "_path": "mdl/flowstate_custom/evac_tower_weight.rmdl"
     },
-    // {
-      // "_type": "mdl_",
-      // "_path": "mdl/custom_maps/mp_rr_dust2.rmdl"
-    // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/custom_maps/mp_rr_dust2.rmdl"
+    },
     {
       "_type": "mdl_",
       "_path": "mdl/techart/mshop/characters/legends/catalyst/catalyst_base_w.rmdl",
