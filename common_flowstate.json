@@ -949,23 +949,23 @@
         "animrig/weapons/empty_handed/ptpov_boxinghand.rrig"
       ]
     },
-    // {
-      // "_type": "mdl_",
-      // "_path": "mdl/Humans/pilots/ballistic_base_w.rmdl",
-      // "$animrigs": [
-        // "animrig/robots/spectre/spectre_pete_core_copy.rrig",
-        // "animrig/robots/spectre/spectre_pete_reactions_copy.rrig",
-        // "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
-        // "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
-      // ]
-    // },
-    // {
-      // "_type": "mdl_",
-      // "_path": "mdl/Humans/pilots/ballistic_base_v.rmdl",
-      // "$animrigs": [
-        // "animrig/weapons/arms/pov_mp_core.rrig"
-      // ]
-    // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/ballistic_base_w.rmdl",
+      "$animrigs": [
+        "animrig/robots/spectre/spectre_pete_core_copy.rrig",
+        "animrig/robots/spectre/spectre_pete_reactions_copy.rrig",
+        "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/ballistic_base_v.rmdl",
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
     {
       "_type": "mdl_",
       "_path": "mdl/flowstate_custom/w_marvin.rmdl",
