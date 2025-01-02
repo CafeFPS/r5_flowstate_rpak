@@ -31,7 +31,8 @@
 		"2": "texture/models/humans_r5/pilots_r5/dummy/dummy_head_2.rpak",
 		"3": "texture/models/humans_r5/pilots_r5/dummy/dummy_head_3.rpak",
 		"4": "texture/models/humans_r5/pilots_r5/dummy/dummy_head_4.rpak",
-		"5": "texture/models/humans_r5/pilots_r5/dummy/dummy_head_5.rpak"
+		"5": "texture/models/humans_r5/pilots_r5/dummy/dummy_head_5.rpak",
+		"6": "texture/models/flowstate_custom/lightsaber/beam_6.rpak"
 	},
 	"$depthShadowMaterial": "0x2B93C99C67CC8B51",
 	"$depthPrepassMaterial": "0x1EBD063EA03180C7",
