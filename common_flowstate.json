@@ -9,6 +9,66 @@
   "compressLevel": 0,
   "compressWorkers": 16,
   "files": [
+ 	{
+	  "_type": "dtbl",
+	  "_path": "datatable/nextbots.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/emotescustom.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_all_new.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_all_new_groups.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_weapon_mods.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_weapon_attachment_data.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/colorpalette_table.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_snd_buy_menu_data.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_scenarios_score_system.rpak"
+	},		
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/score_events.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_winterexpress_dialogues.rpak"
+	},
+	{
+      "_type": "dtbl",
+      "_path": "datatable/flowstate_audio.rpak"
+    },
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_all_new_halomod.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_all_new_halomod_survival_groundloot.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_all_new_snd.rpak"
+	},
     {
       "_type": "matl",
       "_path": "material/art/mshop/characters/legends/ash/base/ash_base_body_sknp.rpak"
