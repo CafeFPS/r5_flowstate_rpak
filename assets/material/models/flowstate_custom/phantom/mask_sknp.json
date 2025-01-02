@@ -27,7 +27,9 @@
 	"shaderSet": "0x97E4F7D956E5E6CE",
 	"$textures": {
 		"0": "texture/models/flowstate_custom/phantom/mask_0.rpak",
-		"1": "texture/models/flowstate_custom/phantom/mask_1.rpak"
+		"1": "texture/models/flowstate_custom/phantom/mask_1.rpak",
+		"5": "texture/models/flowstate_custom/lightsaber/beam_5.rpak",
+		"6": "texture/models/flowstate_custom/lightsaber/beam_6.rpak"
 	},
 	"$depthShadowMaterial": "0x2B93C99C67CC8B51",
 	"$depthPrepassMaterial": "0x1EBD063EA03180C7",

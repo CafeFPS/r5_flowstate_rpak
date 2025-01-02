@@ -225,26 +225,26 @@
       "_type": "matl",
       "_path": "material/models/flowstate_custom/oddball/main_sknp.rpak"
     },
-    // {
-      // "_type": "matl",
-      // "_path": "material/models/flowstate_custom/phantom/body_sknp.rpak"
-    // },
-    // {
-      // "_type": "matl",
-      // "_path": "material/models/flowstate_custom/phantom/glass_sknp.rpak"
-    // },
-    // {
-      // "_type": "matl",
-      // "_path": "material/models/flowstate_custom/phantom/hair_sknp.rpak"
-    // },
-    // {
-      // "_type": "matl",
-      // "_path": "material/models/flowstate_custom/phantom/head_sknp.rpak"
-    // },
-    // {
-      // "_type": "matl",
-      // "_path": "material/models/flowstate_custom/phantom/mask_sknp.rpak"
-    // },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/phantom/body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/phantom/glass_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/phantom/hair_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/phantom/head_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/phantom/mask_sknp.rpak"
+    },
     {
       "_type": "matl",
       "_path": "material/models/flowstate_custom/raygun/battery_sknp.rpak"
@@ -257,18 +257,18 @@
       "_type": "matl",
       "_path": "material/models/flowstate_custom/raygun/reddot_sknp.rpak"
     },
-    // {
-      // "_type": "matl",
-      // "_path": "material/models/flowstate_custom/rhapsody/body_sknp.rpak"
-    // },
-    // {
-      // "_type": "matl",
-      // "_path": "material/models/flowstate_custom/rhapsody/hair_sknp.rpak"
-    // },
-    // {
-      // "_type": "matl",
-      // "_path": "material/models/flowstate_custom/rhapsody/head_sknp.rpak"
-    // },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/rhapsody/body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/rhapsody/hair_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/rhapsody/head_sknp.rpak"
+    },
     {
       "_type": "matl",
       "_path": "material/models/flowstate_custom/titan_sword_01_sknp.rpak"
@@ -828,22 +828,22 @@
         "animrig/humans/class/light/pilot_light_support.rrig"
       ]
     },
-    // // {
-      // // "_type": "mdl_",
-      // // "_path": "mdl/Humans/pilots/w_phantom.rmdl",
-      // // "$animrigs": [
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/w_phantom.rmdl",
+      "$animrigs": [
 
-        // // "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
-        // // "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
-      // // ]
-    // // },
-    // // {
-      // // "_type": "mdl_",
-      // // "_path": "mdl/Humans/pilots/ptpov_phantom.rmdl",
-      // // "$animrigs": [
-        // // "animrig/weapons/arms/pov_mp_core.rrig"
-      // // ]
-    // // },
+        "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/ptpov_phantom.rmdl",
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
     {
       "_type": "mdl_",
       "_path": "mdl/Weapons/vctblue/vctblue_ptpov.rmdl",
@@ -855,15 +855,15 @@
       "_type": "mdl_",
       "_path": "mdl/Weapons/vctblue_w/vctblue_w.rmdl"
     },
-    // // {
-      // // "_type": "mdl_",
-      // // "_path": "mdl/Humans/class/medium/combat_dummie_medium.rmdl",
-      // // "$animrigs": [
-        // // "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
-        // // "animrig/robots/spectre/spectre_pete_core_copy.rrig",
-        // // "animrig/robots/spectre/spectre_pete_reactions_copy.rrig"
-      // // ]
-    // // },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Humans/class/medium/combat_dummie_medium.rmdl",
+      // "$animrigs": [
+        // "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        // "animrig/robots/spectre/spectre_pete_core_copy.rrig",
+        // "animrig/robots/spectre/spectre_pete_reactions_copy.rrig"
+      // ]
+    // },
     {
       "_type": "mdl_",
       "_path": "mdl/Weapons/ptpov_raygun/ptpov_raygun.rmdl",
@@ -905,21 +905,21 @@
       "_type": "mdl_",
       "_path": "mdl/communication/flag_base.rmdl"
     },
-    // {
-      // "_type": "mdl_",
-      // "_path": "mdl/Humans/pilots/w_rhapsody.rmdl",
-      // "$animrigs": [
-        // "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
-        // "animrig/humans/class/medium/pilot_medium_bangalore.rrig"
-      // ]
-    // },
-    // {
-      // "_type": "mdl_",
-      // "_path": "mdl/Humans/pilots/ptpov_rhapsody.rmdl",
-      // "$animrigs": [
-        // "animrig/weapons/arms/pov_mp_core.rrig"
-      // ]
-    // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/w_rhapsody.rmdl",
+      "$animrigs": [
+        "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        "animrig/humans/class/medium/pilot_medium_bangalore.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/ptpov_rhapsody.rmdl",
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
     {
       "_type": "mdl_",
       "_path": "mdl/Weapons/lightsaber/ptpov_lightsaber.rmdl",
