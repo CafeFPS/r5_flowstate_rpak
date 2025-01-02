@@ -1078,18 +1078,18 @@
         "animrig/weapons/defender/ptpov_defender.rrig"
       ]
     },
-    // {
-      // "_type": "mdl_",
-      // "_path": "mdl/weapons_r5/loot/_master/w_loot_cha_shield_upgrade_body_v1_lvl5.rmdl"
-    // },
-    // {
-      // "_type": "mdl_",
-      // "_path": "mdl/weapons_r5/loot/_master/w_loot_cha_shield_upgrade_body_v1_lvl6.rmdl"
-    // },
-    // {
-      // "_type": "mdl_",
-      // "_path": "mdl/weapons_r5/loot/_master/w_loot_cha_shield_upgrade_body_v1_lvl7.rmdl"
-    // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/weapons_r5/loot/_master/w_loot_cha_shield_upgrade_body_v1_lvl5.rmdl"
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/weapons_r5/loot/_master/w_loot_cha_shield_upgrade_body_v1_lvl6.rmdl"
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/weapons_r5/loot/_master/w_loot_cha_shield_upgrade_body_v1_lvl7.rmdl"
+    },
     {
       "_type": "mdl_",
       "_path": "mdl/weapons/throwingknife/ptpov_throwing_knife.rmdl",
