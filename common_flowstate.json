@@ -1,0 +1,989 @@
+{
+  "version": 8,
+  "keepDevOnly": true,
+  "name": "common_flowstate",
+  "streamFileMandatory": "paks/Win64/common_flowstate.starpak",
+  "streamFileOptional": "paks/Win64/common_flowstate.opt.starpak",
+  "assetsDir": "./assets/",
+  "outputDir": "./build/",
+  "compressLevel": 0,
+  "compressWorkers": 16,
+  "files": [
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/ash/base/ash_base_body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/ash/base/ash_base_gear_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/ash/base/ash_base_hair_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/ash/base/ash_base_head_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/ash/base/ash_base_v_arms_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/ballistic/ballistic_base_body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/ballistic/ballistic_base_gear_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/ballistic/ballistic_base_hair_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/ballistic/ballistic_base_head_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/ballistic/ballistic_base_v_arms_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/catalyst/base/catalyst_base_body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/catalyst/base/catalyst_base_gear_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/catalyst/base/catalyst_base_hair_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/catalyst/base/catalyst_base_head_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/catalyst/base/catalyst_base_v_arms_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/horizon/base/horizon_base_body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/horizon/base/horizon_base_gear_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/horizon/base/horizon_base_hair_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/horizon/base/horizon_base_head_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/horizon/base/horizon_base_v_arms_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/valkyrie/base/valkyrie_base_body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/valkyrie/base/valkyrie_base_gear_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/valkyrie/base/valkyrie_base_hair_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/valkyrie/base/valkyrie_base_head_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/art/mshop/characters/legends/valkyrie/base/valkyrie_base_v_arms_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/default_material_rgdp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/effects/ash_sword_smear_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/ctf/flag_base_pole_red_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/ctf/flag_base_pole_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/ctf/terminal_com_station_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/evac_tower_balloon_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/evac_tower_weight_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/lightsaber/beam_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/lightsaber/handle2_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/lightsaber/handle_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/mri_male_v1_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/needler/amogus_body_sknp.rpak"
+    },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/oddball/eyes_sknp.rpak"
+    // },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/oddball/main_sknp.rpak"
+    },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/phantom/body_sknp.rpak"
+    // },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/phantom/glass_sknp.rpak"
+    // },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/phantom/hair_sknp.rpak"
+    // },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/phantom/head_sknp.rpak"
+    // },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/phantom/mask_sknp.rpak"
+    // },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/raygun/battery_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/raygun/body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/raygun/reddot_sknp.rpak"
+    },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/rhapsody/body_sknp.rpak"
+    // },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/rhapsody/hair_sknp.rpak"
+    // },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/rhapsody/head_sknp.rpak"
+    // },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/titan_sword_01_sknp.rpak"
+    },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/humans_r5/pilots_r5/dummy/dummy_body_sknp.rpak"
+    // },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/humans_r5/pilots_r5/dummy/dummy_gear_sknp.rpak"
+    // },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/humans_r5/pilots_r5/dummy/dummy_head_sknp.rpak"
+    // },
+	
+	
+    {
+      "_type": "matl",
+      "_path": "material/models/robotics_r5/marvin/marvin_v1_chassis_screen_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/robotics_r5/marvin/rbt_marvin_v1_chassis_bot_skn_01_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/robotics_r5/marvin/rbt_marvin_v1_chassis_head_skn_01_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/robotics_r5/marvin/rbt_marvin_v1_chassis_top_skn_01_dup_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/robotics_r5/marvin/rbt_marvin_v1_chassis_top_skn_01_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/robotics_r5/marvin/rbt_marvin_v1_chassis_top_skn_02_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/test/weapons_test/pickups_test/wep_test_pickups_proxy_sheet01_rgdp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/weapons_r5/attachments/laser_sight/lasersight/laser_sight_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/weapons_r5/grenades/impulse_grenade_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/weapons_r5/loot/armor/w_loot_wep_iso_armor_energy_01_tier5_rgdp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/weapons_r5/loot/armor/w_loot_wep_iso_armor_energy_01_tier6_rgdp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/weapons_r5/loot/armor/w_loot_wep_iso_armor_energy_01_tier7_rgdp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/weapons_r5/misc_ash_sword/ash_sword_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/weapons_r5/misc_holo_spray_base/holo_spray_base_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/weapons_r5/misc_nova_repulsor/repulsor_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/none_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/bomb_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/0_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/10_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/11_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/12_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/15_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/16_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/17_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/1_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/20_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/21_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/22_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/23_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/25_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/26_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/27_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/28_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/29_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/2_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/30_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/31_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/32_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/33_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/4_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/5_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/6_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/7_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/8_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/dust2/9_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/lightninggun_body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/weapons/vctblue/vctblue_body_sknp.rpak"
+    },
+    {
+      "_type": "arig",
+      "_path": "animrig/ptpov_statue_mirage/ptpov_statue_mirage.rrig",
+      "$sequences": [
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/crouch.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/crouch_to_sprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/draw_01.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/draw_02.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/draw_03.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/draw_airsprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/draw_boop.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/draw_fumble.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/draw_point.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/draw_to_sprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/drawfirst.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/drawsprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/drawsprint_fumble.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/holster_01.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/holster_02.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/holster_airsprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/idle.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/idle_airsprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/idle_onehanded.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/idle_onehanded_airsprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/idle_onehanded_sprinting.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/idle_to_sprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/inspect_gadgets.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/inspect_string.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/jump.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/jump_sprinting.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/land.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/land_airsprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/land_high.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/land_high_airsprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/land_low.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/land_low_airsprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/land_med.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/land_med_airsprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/lower.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/lower_airsprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/lower_sprinting.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/melee_crouch.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/melee_door.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/melee_idle_baseBop.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/melee_idle_bop.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/melee_idle_eyePoke.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/melee_idle_porkchopSwipe.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/melee_idle_reverseSwing.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/melee_jump.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/melee_sliding.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/melee_sprinting.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/meleeraise.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/raise.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/raise_airsprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/raise_sprinting.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/regrip_to_crouch.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/regrip_to_idle.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/sprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/sprint_to_crouch.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/sprint_to_idle.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/sprintholster.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/sprintjump.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/sprintraise.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/sprintslide.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/switch_to_onehanded.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/switch_to_twohanded.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/zipline_mount.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/zipline_mount_airsprint.rseq",
+        "animseq/weapons/mirage_heirloom/ptpov_statue_mirage/zipline_mount_sprinting.rseq"
+      ]
+    },
+    {
+      "_type": "arig",
+      "_path": "animrig/holospray/ptpov_holo_spray.rrig",
+      "$sequences": [
+        "animseq/weapons/holo_spray/ptpov_holo_spray/toss.rseq",
+        "animseq/weapons/holo_spray/ptpov_holo_spray/toss_overhead.rseq",
+        "animseq/weapons/holo_spray/ptpov_holo_spray/toss_prep_pullout.rseq"
+      ]
+    },
+    {
+      "_type": "arig",
+      "_path": "animrig/weapons/throwingknife/ptpov_throwing_knife.rrig",
+      "$sequences": [
+        "animseq/weapons/throwingknife/throwingknife_base_v/draw_onehanded_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/draw_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/draw_seq_knife_02.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/drawfirst_onehanded_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/drawfirst_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/holster_onehanded_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/holster_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/idle_onehanded_seq_crouch_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/idle_onehanded_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/idle_onehanded_seq_wallrun_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/idle_seq_crouch_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/idle_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/inspect.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/jump_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/land_crouch_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/land_high_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/land_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/land_low_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/land_med_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/lower_onehanded_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/lower_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/raise_melee_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/raise_melee_onehanded_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/raise_onehanded_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/raise_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/regrip_to_crouch_air_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/regrip_to_crouch_air_onehanded_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/regrip_to_crouch_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/regrip_to_crouch_onehanded_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/regrip_to_idle_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/regrip_to_idle_onehanded_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/run_layer_wall_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprintdraw_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprintholster_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprinting_onehanded_seq_heavy_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprinting_onehanded_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprinting_seq_heavy_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprinting_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprintraise_onehanded_seq_jump_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprintraise_onehanded_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprintraise_onehanded_seq_slide_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprintraise_seq_jump_heavy_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprintraise_seq_jump_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprintraise_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/sprintraise_seq_slide_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/switch_to_onehanded.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/switch_to_onehanded_crouch.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/switch_to_twohanded.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/switch_to_twohanded_crouch.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/toss_hold_idle_layer_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/toss_hold_onehanded_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/toss_hold_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/toss_onehanded_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/toss_overhead_onehanded_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/toss_overhead_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/toss_prep_pullout_onehanded_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/toss_prep_pullout_seq_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/toss_seq_air_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/toss_seq_crouch_knife.rseq",
+        "animseq/weapons/throwingknife/throwingknife_base_v/toss_seq_knife.rseq"
+      ]
+    },
+    {
+      "_type": "arig",
+      "_path": "animrig/octane_knife/ptpov_knife_octane.rrig",
+      "$sequences": [
+        "animseq/weapons/octane_knife/ptpov_knife_octane/chargeOnehanded_to_idleOnehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/chargeOnehanded_to_sprintOnehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/crouch.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/crouch_airsprint.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/crouch_to_sprint.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/draw.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/draw_to_sprint.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/drawOnehanded_to_sprintOnehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/holster.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/idle.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/idle_airsprint.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/idle_airsprint_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/idle_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/idle_sliding.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/idle_sliding_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/idle_sprinting_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/idle_to_sprint.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/idleOnehanded_to_chargeOnehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/idleOnehanded_to_sprintOnehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/inspect.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/jump.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/jump_sprinting.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/land.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/land_airsprint.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/land_airsprint_high.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/land_airsprint_low.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/land_airsprint_med.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/land_high.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/land_low.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/land_med.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/land_sliding.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/land_sliding_high.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/land_sliding_low.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/land_sliding_med.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/lower.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/lower_airsprint.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/lower_airsprint_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/lower_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/lower_sprinting.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/lower_sprinting_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/melee_crouch_01.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/melee_door.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/melee_idle_01.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/melee_jump.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/melee_slide.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/melee_sprinting_01.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/meleeraise.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/meleeraise_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/raise.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/raise_airsprint.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/raise_airsprint_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/raise_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/raise_sprinting.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/raise_sprinting_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/slide_to_crouch.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/slide_to_sprint.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/sprint.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/sprint_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/sprint_to_idle.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/sprint_to_slide.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/sprintjump.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/sprintjump_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/sprintOnehanded_to_chargeOnehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/sprintraise.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/sprintraise_onehanded.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/sprintslide.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/zipline_mount.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/zipline_mount_airsprint.rseq",
+        "animseq/weapons/octane_knife/ptpov_knife_octane/zipline_mount_sprinting.rseq"
+      ]
+    },
+    {
+      "$type": "arig",
+      "path": "animrig/weapons/rampart_wall/ptpov_rampart_wall_held.rrig",
+      "sequences": [
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/crouch.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/draw.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/fire.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/holster.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/idle.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/jump.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/land.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/land_high.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/land_low.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/land_low_airsprint.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/land_med.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/lower.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/raise.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/regrip_to_crouch.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/regrip_to_idle.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/sprint.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/sprintjump.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/sprintraise.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/sprintslide.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/sprint_camOnly_layer.rseq",
+        "animseq/weapons/rampart_wall/ptpov_rampart_wall_held/sprint_layer.rseq"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/bomb/ptpov_bomb.rmdl",
+      "$animrigs": [
+        "animrig/weapons/rampart_wall/ptpov_rampart_wall_held.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/bomb/w_bomb.rmdl"
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/holo_spray/w_holo_spray.rmdl"
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/holo_spray/ptpov_holo_spray.rmdl",
+      "$animrigs": [
+        "animrig/holospray/ptpov_holo_spray.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/props/holo_spray/holo_spray_base.rmdl"
+      
+    },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Humans/pilots/ptpov_amogino.rmdl",
+      // "$animrigs": [
+        // "animrig/weapons/arms/pov_mp_core.rrig"
+      // ]
+    // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/w_amogino.rmdl",
+      "$animrigs": [
+        "animrig/humans/class/light/mp_pilot_light_core.rrig",
+        "animrig/humans/class/light/pilot_light_support.rrig"
+      ]
+    },
+    // // {
+      // // "_type": "mdl_",
+      // // "_path": "mdl/Humans/pilots/w_phantom.rmdl",
+      // // "$animrigs": [
+
+        // // "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        // // "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
+      // // ]
+    // // },
+    // // {
+      // // "_type": "mdl_",
+      // // "_path": "mdl/Humans/pilots/ptpov_phantom.rmdl",
+      // // "$animrigs": [
+        // // "animrig/weapons/arms/pov_mp_core.rrig"
+      // // ]
+    // // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/vctblue/vctblue_ptpov.rmdl",
+      "$animrigs": [
+        "animrig/weapons/kunai/ptpov_kunai_wraith.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/vctblue_w/vctblue_w.rmdl"
+    },
+    // // {
+      // // "_type": "mdl_",
+      // // "_path": "mdl/Humans/class/medium/combat_dummie_medium.rmdl",
+      // // "$animrigs": [
+        // // "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        // // "animrig/robots/spectre/spectre_pete_core_copy.rrig",
+        // // "animrig/robots/spectre/spectre_pete_reactions_copy.rrig"
+      // // ]
+    // // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/ptpov_raygun/ptpov_raygun.rmdl",
+      "$animrigs": [
+        "animrig/weapons/b3wing/ptpov_b3wing.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/w_raygun/w_raygun.rmdl"
+    },
+    // // {
+      // // "_type": "mdl_",
+      // // "_path": "mdl/flowstate_custom/ptpov_oddball.rmdl",
+      // // "$animrigs": [
+        // // "animrig/ptpov_statue_mirage/ptpov_statue_mirage.rrig"
+      // // ]
+    // // },
+    // // {
+      // // "_type": "mdl_",
+      // // "_path": "mdl/flowstate_custom/w_oddball.rmdl"
+    // // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/ptpov_flagpole.rmdl",
+      "$animrigs": [
+        "animrig/weapons/bloodhound_axe/ptpov_axe_bloodhound.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/signs/flag_base_pole_ctf_red.rmdl"
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/signs/flag_base_pole_ctf.rmdl"
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/communication/flag_base.rmdl"
+    },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Humans/pilots/w_rhapsody.rmdl",
+      // "$animrigs": [
+        // "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        // "animrig/humans/class/medium/pilot_medium_bangalore.rrig"
+      // ]
+    // },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Humans/pilots/ptpov_rhapsody.rmdl",
+      // "$animrigs": [
+        // "animrig/weapons/arms/pov_mp_core.rrig"
+      // ]
+    // },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Weapons/lightsaber/ptpov_lightsaber.rmdl",
+      // "$animrigs": [
+        // "animrig/weapons/bloodhound_axe/ptpov_axe_bloodhound.rrig"
+      // ]
+    // },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Weapons/lightsaber/w_lightsaber.rmdl"
+    // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/ptpov_flowstate_sword.rmdl",
+      "$animrigs": [
+        "animrig/weapons/bloodhound_axe/ptpov_axe_bloodhound.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/w_flowstate_sword.rmdl"
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/weapons/empty_handed/ptpov_boxinghand.rmdl",
+      "$animrigs": [
+        "animrig/weapons/empty_handed/ptpov_boxinghand.rrig"
+      ]
+    },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Humans/pilots/ballistic_base_w.rmdl",
+      // "$animrigs": [
+        // "animrig/robots/spectre/spectre_pete_core_copy.rrig",
+        // "animrig/robots/spectre/spectre_pete_reactions_copy.rrig",
+        // "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        // "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
+      // ]
+    // },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Humans/pilots/ballistic_base_v.rmdl",
+      // "$animrigs": [
+        // "animrig/weapons/arms/pov_mp_core.rrig"
+      // ]
+    // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/w_marvin.rmdl",
+      "$animrigs": [
+        "animrig/humans/class/heavy/mp_pilot_heavy_core.rrig",
+        "animrig/humans/class/heavy/pilot_heavy_pathfinder.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/w_pete_mri.rmdl",
+      "$animrigs": [
+        "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        "animrig/humans/class/medium/pilot_medium_bangalore.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/ptpov_pete_mri.rmdl",
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/evac_tower_balloon.rmdl"
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/evac_tower_weight.rmdl"
+    },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/custom_maps/mp_rr_dust2.rmdl"
+    // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/techart/mshop/characters/legends/catalyst/catalyst_base_w.rmdl",
+      "$animrigs": [
+        "animrig/robots/spectre/spectre_pete_core_copy.rrig",
+        "animrig/robots/spectre/spectre_pete_reactions_copy.rrig",
+        "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/techart/mshop/characters/legends/catalyst/catalyst_base_v.rmdl",
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/class/medium/pilot_medium_valkyrie.rmdl",
+      "$animrigs": [
+        "animrig/robots/spectre/spectre_pete_core_copy.rrig",
+        "animrig/robots/spectre/spectre_pete_reactions_copy.rrig",
+        "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/arms/pov_pilot_medium_valkyrie.rmdl",
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/class/medium/pilot_medium_nova_01.rmdl",
+      "$animrigs": [
+        "animrig/robots/spectre/spectre_pete_core_copy.rrig",
+        "animrig/robots/spectre/spectre_pete_reactions_copy.rrig",
+        "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/arms/pov_pilot_medium_nova_base_01.rmdl",
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/techart/mshop/characters/legends/ash/ash_base_w.rmdl",
+      "$animrigs": [
+        "animrig/humans/class/light/mp_pilot_light_core.rrig",
+        "animrig/humans/class/light/pilot_light_wraith.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/techart/mshop/characters/legends/ash/ash_base_v.rmdl",
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/w_lightninggun.rmdl"
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/ptpov_lightninggun.rmdl",
+      "$animrigs": [
+        "animrig/weapons/defender/ptpov_defender.rrig"
+      ]
+    },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/weapons_r5/loot/_master/w_loot_cha_shield_upgrade_body_v1_lvl5.rmdl"
+    // },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/weapons_r5/loot/_master/w_loot_cha_shield_upgrade_body_v1_lvl6.rmdl"
+    // },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/weapons_r5/loot/_master/w_loot_cha_shield_upgrade_body_v1_lvl7.rmdl"
+    // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/weapons/throwingknife/ptpov_throwing_knife.rmdl",
+      "$animrigs": [
+        "animrig/weapons/throwingknife/ptpov_throwing_knife.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/weapons/throwingknife/w_throwing_knife.rmdl"
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/empty_handed/ptpov_wraith_phasewalk.rmdl",
+      "$animrigs": [
+        "animrig/weapons/empty_handed/ptpov_wraith_phasewalk.rrig"
+      ]
+    }
+  ]
+}

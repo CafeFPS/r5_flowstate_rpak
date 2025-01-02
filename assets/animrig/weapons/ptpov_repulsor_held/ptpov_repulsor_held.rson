@@ -1,0 +1,17 @@
+seqs:
+[
+	animseq\weapons\repulsor\ptpov_repulsor_held\idle_seq_autoplay.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\jump.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\land.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\land_high.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\land_low.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\land_med.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\toss_hold_seq.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\toss_hold_sprinting_seq.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\toss_low_seq.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\toss_overhead_seq.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\toss_prep_pullout_seq.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\toss_prep_pullout_sprint_seq.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\trans_to_hold.rseq
+	animseq\weapons\repulsor\ptpov_repulsor_held\trans_to_sprint.rseq
+]
