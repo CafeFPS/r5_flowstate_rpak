@@ -11,6 +11,10 @@
   "files": [
 	{
 	  "_type": "dtbl",
+	  "_path": "datatable/loybadges.rpak"
+	},
+	{
+	  "_type": "dtbl",
 	  "_path": "datatable/nextbots.rpak"
 	},
 	{
