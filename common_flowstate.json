@@ -2,11 +2,11 @@
   "version": 8,
   "keepDevOnly": true,
   "name": "common_flowstate",
-  "streamFileMandatory": "paks/Win64/common_flowstate.starpak",
-  "streamFileOptional": "paks/Win64/common_flowstate.opt.starpak",
+  "streamFileMandatory": "paks/Win64/pc_fs.starpak",
+  "streamFileOptional": "paks/Win64/pc_fs.opt.starpak",
   "assetsDir": "./assets/",
   "outputDir": "./build/",
-  "compressLevel": 0,
+  "compressLevel": 19,
   "compressWorkers": 16,
   "files": [
 	{
