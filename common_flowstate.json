@@ -4,6 +4,7 @@
   "name": "common_flowstate",
   "streamFileMandatory": "paks/Win64/pc_fs.starpak",
   "streamFileOptional": "paks/Win64/pc_fs.opt.starpak",
+  "streamCache": "cache/pc_roots.starmap",
   "assetsDir": "./assets/",
   "outputDir": "./build/",
   "compressLevel": 6,
