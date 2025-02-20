@@ -37,4 +37,4 @@
 8,30,"rui/hud/tactical_icons/tactical_wraith",1,"","PHASE","mp_ability_phase_walk",2000,0,0,0,0
 8,31,"rui/hud/tactical_icons/tactical_octane",1,"","STIM","mp_ability_heal",2000,0,0,0,0
 8,32,"rui/hud/tactical_icons/tactical_bloodhound",1,"","AREA SCAN","mp_ability_area_sonar_scan",2000,0,0,0,0
-"int","int","asset","int","string","string","string","int","int","int","int","int"
+"int","int","string","int","string","string","string","int","int","int","int","int"

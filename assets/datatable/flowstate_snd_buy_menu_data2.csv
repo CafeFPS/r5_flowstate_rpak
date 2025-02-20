@@ -26,4 +26,4 @@
 6,21,"rui/weapon_icons/r5/weapon_longbow",1,"","LONGBOW","mp_weapon_dmr",5000,0,300,400,500
 6,22,"rui/weapon_icons/r5/weapon_charge_rifle",1,"","CHARGE RIFLE","mp_weapon_defender",5000,0,300,400,500
 6,23,"rui/weapon_icons/r5/weapon_sniper",5,"","KRABER","mp_weapon_sniper",10000,1000,1000,1000,1000
-"int","int","asset","int","string","string","string","int","int","int","int","int"
+"int","int","string","int","string","string","string","int","int","int","int","int"
