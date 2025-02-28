@@ -32,10 +32,6 @@
 	},
 	{
 	  "_type": "dtbl",
-	  "_path": "datatable/flowstate_weapon_mods.rpak"
-	},
-	{
-	  "_type": "dtbl",
 	  "_path": "datatable/flowstate_weapon_attachment_data.rpak"
 	},
 	{
@@ -1078,13 +1074,6 @@
     {
       "_type": "mdl_",
       "_path": "mdl/weapons/throwingknife/w_throwing_knife.rmdl"
-    },
-    {
-      "_type": "mdl_",
-      "_path": "mdl/Weapons/empty_handed/ptpov_wraith_phasewalk.rmdl",
-      "$animrigs": [
-        "animrig/weapons/empty_handed/ptpov_wraith_phasewalk.rrig"
-      ]
     }
   ]
 }
