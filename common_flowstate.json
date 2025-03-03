@@ -708,6 +708,26 @@
     },
     {
       "_type": "arig",
+      "_path": "animrig/weapons/ptpov_repulsor_held/ptpov_repulsor_held.rrig",
+      "$sequences": [
+        "animseq/weapons/repulsor/ptpov_repulsor_held/idle_seq_autoplay.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/jump.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/land.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/land_high.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/land_low.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/land_med.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/toss_hold_seq.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/toss_hold_sprinting_seq.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/toss_low_seq.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/toss_overhead_seq.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/toss_prep_pullout_seq.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/toss_prep_pullout_sprint_seq.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/trans_to_hold.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/trans_to_sprint.rseq"
+      ]
+    },
+    {
+      "_type": "arig",
       "_path": "animrig/weapons/empty_handed/ptpov_boxinghand.rrig",
       "$sequences": [
         "animseq/weapons/empty_handed/ptpov_boxinghand/crouch.rseq",
@@ -1074,6 +1094,13 @@
     {
       "_type": "mdl_",
       "_path": "mdl/weapons/throwingknife/w_throwing_knife.rmdl"
-    }
+    },
+	{
+	  "_type": "mdl_",
+	  "_path": "mdl/Weapons/ptpov_repulsor_held/ptpov_repulsor_held.rmdl",
+	  "$animrigs": [
+		"animrig/weapons/ptpov_repulsor_held/ptpov_repulsor_held.rrig"
+	  ]	
+	}
   ]
 }
