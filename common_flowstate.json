@@ -10,6 +10,10 @@
   "compressLevel": 6,
   "compressWorkers": 16,
   "files": [
+  {
+    "_type": "dtbl",
+    "_path": "datatable/precache_flowstate.rpak"//CALL IN MODELS EARLY AND PRECACHE TO MAKE SURE THEY ARE READY BEFORE SCRIPTS BEING LOADED
+  },
 	{
 	  "_type": "dtbl",
 	  "_path": "datatable/loybadges.rpak"
