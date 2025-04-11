@@ -5,6 +5,7 @@
   "streamFileMandatory": "paks/Win64/pc_fs.starpak",
   "streamFileOptional": "paks/Win64/pc_fs.opt.starpak",
   "streamCache": "cache/pc_roots.starmap",
+  //"keepClientOnly": false,
   "assetsDir": "./assets/",
   "outputDir": "./build/",
   "compressLevel": 12,
