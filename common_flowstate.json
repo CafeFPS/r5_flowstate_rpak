@@ -29,10 +29,6 @@
 	},
 	{
 	  "_type": "dtbl",
-	  "_path": "datatable/flowstate_all_new_groups.rpak"
-	},
-	{
-	  "_type": "dtbl",
 	  "_path": "datatable/flowstate_weapon_attachment_data.rpak"
 	},
 	{
@@ -43,10 +39,6 @@
 	  "_type": "dtbl",
 	  "_path": "datatable/flowstate_scenarios_score_system.rpak"
 	},		
-	{
-	  "_type": "dtbl",
-	  "_path": "datatable/score_events.rpak"
-	},
 	{
 	  "_type": "dtbl",
 	  "_path": "datatable/flowstate_winterexpress_dialogues.rpak"
