@@ -1,7 +1,7 @@
 {
 	"name": "models/props/skull_mech_01/skull_mech_01_eyes",
-	"width": 2048,
-	"height": 2048,
+	"width": 256,
+	"height": 256,
 	"depth": 0,
 	"glueFlags": "0x56000420",
 	"glueFlags2": "0x0",
