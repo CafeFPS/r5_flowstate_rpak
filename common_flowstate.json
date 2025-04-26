@@ -1,72 +1,64 @@
 {
   "version": 8,
   "keepDevOnly": true,
-
   "name": "common_flowstate",
-  "streamFileMandatory": "paks/Win64/pc_fs.starpak",
-  "streamFileOptional": "paks/Win64/pc_fs.opt.starpak",
+  "streamFileMandatory": "mods/Flowstate/paks/Win64/pc_fs.starpak",
+  "streamFileOptional": "mods/Flowstate/paks/Win64/pc_fs.opt.starpak",
   "streamCache": "cache/pc_roots.starmap",
-
+  //"keepClientOnly": false,
   "assetsDir": "./assets/",
   "outputDir": "./build/",
-
-  "keepClientOnly": true,
-
   "compressLevel": 6,
   "compressWorkers": 16,
   "files": [
-    {
-      "_type": "dtbl",
-      "_path": "datatable/loybadges.rpak"
-    },
-    {
-      "_type": "dtbl",
-      "_path": "datatable/nextbots.rpak"
-    },
-    {
-      "_type": "dtbl",
-      "_path": "datatable/emotescustom.rpak"
-    },
-    {
-      "_type": "dtbl",
-      "_path": "datatable/flowstate_all_new.rpak"
-    },
-    {
-      "_type": "dtbl",
-      "_path": "datatable/flowstate_weapon_attachment_data.rpak"
-    },
-    {
-      "_type": "dtbl",
-      "_path": "datatable/flowstate_snd_buy_menu_data.rpak"
-    },
-    {
-      "_type": "dtbl",
-      "_path": "datatable/flowstate_scenarios_score_system.rpak"
-    },		
-    {
-      "_type": "dtbl",
-      "_path": "datatable/flowstate_audio.rpak"
-    },
-    {
-      "_type": "dtbl",
-      "_path": "datatable/flowstate_all_new_halomod.rpak"
-    },
-    {
-      "_type": "dtbl",
-      "_path": "datatable/flowstate_all_new_halomod_survival_groundloot.rpak"
-    },
-    {
-      "_type": "dtbl",
-      "_path": "datatable/flowstate_all_new_snd.rpak"
-    },
-    {
-      "_type": "matl",
-      "_path": "material/models/props/skull_mech_01/skull_mech_01_eyes_sknp.rpak"
-    },
-    {
-      "_type": "matl",
-      "_path": "material/models/props/skull_mech_01/skull_mech_01_main_sknp.rpak"
-    },
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/loybadges.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/nextbots.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/emotescustom.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_all_new.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_weapon_attachment_data.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_snd_buy_menu_data.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_scenarios_score_system.rpak"
+	},		
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_winterexpress_dialogues.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_audio.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_all_new_halomod.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_all_new_halomod_survival_groundloot.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_all_new_snd.rpak"
+	},
     {
       "_type": "matl",
       "_path": "material/art/mshop/characters/legends/ash/base/ash_base_body_sknp.rpak"
@@ -556,20 +548,6 @@
     },
     {
       "_type": "mdl_",
-      "_path": "mdl/Weapons/skull_grenade/skull_grenade_base_v.rmdl",
-      "$animrigs": [
-        "animrig/weapons/grenades/ptpov_frag_grenade_held.rrig"
-      ]
-    },
-    {
-      "_type": "mdl_",
-      "_path": "mdl/Weapons/skull_grenade/skull_grenade_base_v_v1.rmdl",
-      "$animrigs": [
-        "animrig/weapons/grenades/ptpov_frag_grenade_held.rrig"
-      ]
-    },
-    {
-      "_type": "mdl_",
       "_path": "mdl/Weapons/bomb/ptpov_bomb.rmdl",
       "$animrigs": [
         "animrig/weapons/rampart_wall/ptpov_rampart_wall_held.rrig"
@@ -875,12 +853,12 @@
       "_type": "mdl_",
       "_path": "mdl/weapons/throwingknife/w_throwing_knife.rmdl"
     },
-    {
-      "_type": "mdl_",
-      "_path": "mdl/Weapons/ptpov_repulsor_held/ptpov_repulsor_held.rmdl",
-      "$animrigs": [
-      "animrig/weapons/ptpov_repulsor_held/ptpov_repulsor_held.rrig"
-      ]	
-    }
+	{
+	  "_type": "mdl_",
+	  "_path": "mdl/Weapons/ptpov_repulsor_held/ptpov_repulsor_held.rmdl",
+	  "$animrigs": [
+		"animrig/weapons/ptpov_repulsor_held/ptpov_repulsor_held.rrig"
+	  ]	
+	}
   ]
 }
