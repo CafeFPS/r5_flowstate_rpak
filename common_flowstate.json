@@ -317,10 +317,6 @@
     },
     {
       "_type": "matl",
-      "_path": "material/models/weapons_r5/misc_holo_spray_base/holo_spray_base_sknp.rpak"
-    },
-    {
-      "_type": "matl",
       "_path": "material/models/weapons_r5/misc_nova_repulsor/repulsor_sknp.rpak"
     },
     {
@@ -564,10 +560,6 @@
     {
       "_type": "mdl_",
       "_path": "mdl/flowstate/highrise_square_top_01.rmdl"
-    },
-    {
-      "_type": "mdl_",
-      "_path": "mdl/Weapons/holo_spray/w_holo_spray.rmdl"
     },
     {
       "_type": "mdl_",
