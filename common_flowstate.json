@@ -449,15 +449,6 @@
     },
     {
       "_type": "arig",
-      "_path": "animrig/holospray/ptpov_holo_spray.rrig",
-      "$sequences": [
-        "animseq/weapons/holo_spray/ptpov_holo_spray/toss.rseq",
-        "animseq/weapons/holo_spray/ptpov_holo_spray/toss_overhead.rseq",
-        "animseq/weapons/holo_spray/ptpov_holo_spray/toss_prep_pullout.rseq"
-      ]
-    },
-    {
-      "_type": "arig",
       "_path": "animrig/weapons/throwingknife/ptpov_throwing_knife.rrig",
       "$sequences": [
         "animseq/weapons/throwingknife/throwingknife_base_v/draw_onehanded_seq_knife.rseq",
@@ -565,13 +556,8 @@
       "_type": "mdl_",
       "_path": "mdl/Weapons/holo_spray/ptpov_holo_spray.rmdl",
       "$animrigs": [
-        "animrig/holospray/ptpov_holo_spray.rrig"
+        "animrig/props/holo_spray/holo_spray.rrig"
       ]
-    },
-    {
-      "_type": "mdl_",
-      "_path": "mdl/props/holo_spray/holo_spray_base.rmdl"
-      
     },
     // {
       // "_type": "mdl_",
