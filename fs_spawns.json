@@ -1,0 +1,71 @@
+{ 
+    "version": 8,
+    "keepDevOnly": true,
+  
+    "name": "fs_spawns",
+  
+    "assetsDir": "./assets/",
+    "outputDir": "./build/",
+  
+    "compressLevel": 0,
+    "compressWorkers": 16,
+    "files":
+    [
+		{           
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_1v1_mp_rr_canyonlands_staging_set_1.rpak"
+        },
+		{           
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_1v1_mp_rr_aqueduct_set_1.rpak"
+        },
+        {
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_1v1_mp_rr_arena_composite_set_1.rpak"
+        },
+        {
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_1v1_coaching_mp_rr_arena_composite_set_1.rpak"
+        },
+		{
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_1v1_mp_rr_canyonlands_64k_x_64k_set_1.rpak"
+        },
+		{
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_lgduels.rpak"
+        },
+		{
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_1v1_mp_rr_party_crasher_set_1.rpak"
+        },
+		{
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_1v1_mp_rr_arena_phase_runner_set_1.rpak"
+        },
+		{
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_1v1_mp_rr_arena_skygarden_set_1.rpak"
+        },
+		{
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_scenarios_mp_rr_desertlands_64k_x_64k_set_1.rpak"
+        },
+	    {
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_1v1_mp_rr_olympus_tt_set_1.rpak"
+        },
+		{
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_1v1_mp_rr_desertlands_64k_x_64k_set_1.rpak"
+        },
+		{
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_realistic_ttv_mp_rr_desertlands_64k_x_64k_set_1.rpak"
+        },
+		{
+            "_type": "dtbl",
+            "_path": "datatable/fs_spawns_fs_scenarios_mp_rr_desertlands_64k_x_64k_set_3.rpak"
+        }
+    ]
+}
