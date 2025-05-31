@@ -1,0 +1,46 @@
+{
+	"name": "world/timeshift/windows/ts_window01_dark",
+	"width": 512,
+	"height": 512,
+	"depth": 0,
+	"glueFlags": "0x56000022",
+	"glueFlags2": "0x100000",
+	"blendStates": [
+		"0xF0138286",
+		"0xF0138286",
+		"0xF0008286",
+		"0xF0000000",
+		"0xF0138286",
+		"0x0",
+		"0x80500002",
+		"0x0"
+	],
+	"blendStateMask": "0x5",
+	"depthStencilFlags": "0x7",
+	"rasterizerFlags": "0x6",
+	"uberBufferFlags": "0x0",
+	"features": "0x1F5A92BD",
+	"samplers": "0x1D0300",
+	"surfaceProp": "glass",
+	"surfaceProp2": "",
+	"shaderType": "rgdp",
+	"shaderSet": "0x408762DAB0B00A6F",
+	"$textures": {
+		"0": "0x196FD8B991234ED5",
+		"1": "0x984E508DC2F973DF",
+		"2": "0x51B041C8C3288297",
+		"3": "0x7E631CD3FAADEEE7"
+	},
+	"$textureTypes": {
+		"0": "albedoTexture",
+		"1": "normalTexture",
+		"2": "glossTexture",
+		"3": "specTexture"
+	},
+	"$depthShadowMaterial": "0x0",
+	"$depthPrepassMaterial": "0x0",
+	"$depthVSMMaterial": "0x0",
+	"$depthShadowTightMaterial": "0x0",
+	"$colpassMaterial": "0x0",
+	"$textureAnimation": "0x0"
+}

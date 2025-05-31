@@ -1,0 +1,52 @@
+{
+	"name": "models/beacon/beacon_server_01/beacon_server_01_on_colpass",
+	"width": 1024,
+	"height": 512,
+	"depth": 0,
+	"glueFlags": "0x56000020",
+	"glueFlags2": "0x100000",
+	"blendStates": [
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000"
+	],
+	"blendStateMask": "0x4",
+	"depthStencilFlags": "0x5",
+	"rasterizerFlags": "0x6",
+	"uberBufferFlags": "0x0",
+	"features": "0x1F5A92BD",
+	"samplers": "0x1D0300",
+	"surfaceProp": "default",
+	"surfaceProp2": "",
+	"shaderType": "rgdp",
+	"shaderSet": "0x8B07321E101A8F46",
+	"$textures": {
+		"0": "0xC80B540A47542465",
+		"1": "0xBECADD76F4E44CE7",
+		"2": "0xC26AAAFF2B114147",
+		"3": "0x556001E2EBAFD73E",
+		"4": "0x85986B3CECB721C0",
+		"7": "0xE1116967F8B5C3BF",
+		"10": "0x83100882F15C9F48"
+	},
+	"$textureTypes": {
+		"0": "albedoTexture",
+		"1": "normalTexture",
+		"2": "glossTexture",
+		"3": "specTexture",
+		"4": "emissiveTexture",
+		"7": "unavailable",
+		"10": "emissiveMultiplyTexture"
+	},
+	"$depthShadowMaterial": "0x8D98E0CD662704E2",
+	"$depthPrepassMaterial": "0x53B3E80A6B66ADA5",
+	"$depthVSMMaterial": "0xA1E70969DF3381D0",
+	"$depthShadowTightMaterial": "0x6BE6C38F67B5EE14",
+	"$colpassMaterial": "0x0",
+	"$textureAnimation": "0x0"
+}

@@ -1,0 +1,48 @@
+{
+	"name": "models/props/desertlands_serving_counter_01/desertlands_serving_counter_01_colpass",
+	"width": 1024,
+	"height": 1024,
+	"depth": 0,
+	"glueFlags": "0x56000020",
+	"glueFlags2": "0x100000",
+	"blendStates": [
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000"
+	],
+	"blendStateMask": "0x4",
+	"depthStencilFlags": "0x5",
+	"rasterizerFlags": "0x6",
+	"uberBufferFlags": "0x0",
+	"features": "0x1F5A92BD",
+	"samplers": "0x1D0300",
+	"surfaceProp": "metal",
+	"surfaceProp2": "",
+	"shaderType": "rgdp",
+	"shaderSet": "0x2A2DB3A47AF9B3D5",
+	"$textures": {
+		"0": "0x1C767FF29FC31B7E",
+		"1": "0xB3BAD39ACBC3B74C",
+		"2": "0xFD361C1DC3E7B866",
+		"3": "0x624EC1833ADA4C72",
+		"4": "0xD3086D3B12D01E23"
+	},
+	"$textureTypes": {
+		"0": "unavailable",
+		"1": "unavailable",
+		"2": "unavailable",
+		"3": "unavailable",
+		"4": "unavailable"
+	},
+	"$depthShadowMaterial": "0x251FBE09EFFE8AB1",
+	"$depthPrepassMaterial": "0xE2D52641AFC77395",
+	"$depthVSMMaterial": "0xBDBF90B97E7D9280",
+	"$depthShadowTightMaterial": "0x85654E05CF9B40E7",
+	"$colpassMaterial": "0x0",
+	"$textureAnimation": "0x0"
+}

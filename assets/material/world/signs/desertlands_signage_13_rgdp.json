@@ -1,0 +1,50 @@
+{
+	"name": "world/signs/desertlands_signage_13",
+	"width": 2048,
+	"height": 1024,
+	"depth": 0,
+	"glueFlags": "0x56000020",
+	"glueFlags2": "0x100000",
+	"blendStates": [
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000"
+	],
+	"blendStateMask": "0x4",
+	"depthStencilFlags": "0x17",
+	"rasterizerFlags": "0x6",
+	"uberBufferFlags": "0x0",
+	"features": "0x1F5A92BD",
+	"samplers": "0x1D0300",
+	"surfaceProp": "plastic",
+	"surfaceProp2": "",
+	"shaderType": "rgdp",
+	"shaderSet": "0xFFFAA0B4763A1224",
+	"$textures": {
+		"0": "0x8F0FEC33A7587A0E",
+		"1": "0x637CC9C47AF7F5A3",
+		"2": "0x99512D6201C47753",
+		"3": "0x2C93755235D1111B",
+		"4": "0xE85E4BC83225DF48",
+		"10": "0xEA21165642EA2273"
+	},
+	"$textureTypes": {
+		"0": "albedoTexture",
+		"1": "normalTexture",
+		"2": "glossTexture",
+		"3": "specTexture",
+		"4": "emissiveTexture",
+		"10": "emissiveMultiplyTexture"
+	},
+	"$depthShadowMaterial": "0x251FBE09EFFE8AB1",
+	"$depthPrepassMaterial": "0xE2D52641AFC77395",
+	"$depthVSMMaterial": "0xBDBF90B97E7D9280",
+	"$depthShadowTightMaterial": "0x85654E05CF9B40E7",
+	"$colpassMaterial": "0xEE51D3EAE14CE078",
+	"$textureAnimation": "0x0"
+}

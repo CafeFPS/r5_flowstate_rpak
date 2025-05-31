@@ -1,0 +1,48 @@
+{
+	"name": "world/metal/slum_trim_girdering_01",
+	"width": 2048,
+	"height": 2048,
+	"depth": 0,
+	"glueFlags": "0x56000020",
+	"glueFlags2": "0x100000",
+	"blendStates": [
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000"
+	],
+	"blendStateMask": "0x4",
+	"depthStencilFlags": "0x17",
+	"rasterizerFlags": "0x6",
+	"uberBufferFlags": "0x0",
+	"features": "0x1F5A92BD",
+	"samplers": "0x1D0300",
+	"surfaceProp": "metal",
+	"surfaceProp2": "",
+	"shaderType": "rgdp",
+	"shaderSet": "0x75AB3C79B6CB8EE8",
+	"$textures": {
+		"0": "0x235F0BC9AED4FD76",
+		"1": "0xB9BC8C4CB85E134A",
+		"2": "0x41EA7F4EBC8F222",
+		"3": "0x69374D5A49EC2E6A",
+		"5": "0x9079D9B1535D40E2"
+	},
+	"$textureTypes": {
+		"0": "unavailable",
+		"1": "unavailable",
+		"2": "unavailable",
+		"3": "unavailable",
+		"5": "unavailable"
+	},
+	"$depthShadowMaterial": "0x251FBE09EFFE8AB1",
+	"$depthPrepassMaterial": "0xE2D52641AFC77395",
+	"$depthVSMMaterial": "0xBDBF90B97E7D9280",
+	"$depthShadowTightMaterial": "0x85654E05CF9B40E7",
+	"$colpassMaterial": "0x617D534221CEF60A",
+	"$textureAnimation": "0x0"
+}

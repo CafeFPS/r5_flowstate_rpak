@@ -1,0 +1,48 @@
+{
+	"name": "world/metal/research_station/research_station_trim_02",
+	"width": 1024,
+	"height": 1024,
+	"depth": 0,
+	"glueFlags": "0x56000020",
+	"glueFlags2": "0x100000",
+	"blendStates": [
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000"
+	],
+	"blendStateMask": "0x4",
+	"depthStencilFlags": "0x17",
+	"rasterizerFlags": "0x6",
+	"uberBufferFlags": "0x0",
+	"features": "0x1F5A92BD",
+	"samplers": "0x1D0300",
+	"surfaceProp": "metal",
+	"surfaceProp2": "",
+	"shaderType": "rgdp",
+	"shaderSet": "0xE630639C8B35BD9",
+	"$textures": {
+		"0": "0xD1A25DE17C234450",
+		"1": "0xA6A91D8B1DCF6FC3",
+		"2": "0xDC7D81289E681B82",
+		"3": "0x6DF222CDCD3EC127",
+		"5": "0xA2E9BCE8E2BB8D3D"
+	},
+	"$textureTypes": {
+		"0": "unavailable",
+		"1": "unavailable",
+		"2": "unavailable",
+		"3": "unavailable",
+		"5": "unavailable"
+	},
+	"$depthShadowMaterial": "0x251FBE09EFFE8AB1",
+	"$depthPrepassMaterial": "0xE2D52641AFC77395",
+	"$depthVSMMaterial": "0xBDBF90B97E7D9280",
+	"$depthShadowTightMaterial": "0x85654E05CF9B40E7",
+	"$colpassMaterial": "0xB78FF8DBFC2525AD",
+	"$textureAnimation": "0x0"
+}

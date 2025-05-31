@@ -1,0 +1,46 @@
+{
+	"name": "models/domestic/display_fridge_glass",
+	"width": 256,
+	"height": 256,
+	"depth": 0,
+	"glueFlags": "0x56000022",
+	"glueFlags2": "0x100000",
+	"blendStates": [
+		"0xF0138286",
+		"0xF0138286",
+		"0xF0008286",
+		"0xF0000000",
+		"0xF0138286",
+		"0x0",
+		"0x80500002",
+		"0x0"
+	],
+	"blendStateMask": "0x5",
+	"depthStencilFlags": "0x7",
+	"rasterizerFlags": "0x6",
+	"uberBufferFlags": "0x0",
+	"features": "0x1F5A92BD",
+	"samplers": "0x1D0300",
+	"surfaceProp": "glass",
+	"surfaceProp2": "",
+	"shaderType": "rgdp",
+	"shaderSet": "0x40A3E4BF961C27C",
+	"$textures": {
+		"0": "0x9D0CE1715F70B573",
+		"1": "0x7260922749200B20",
+		"2": "0xA834F5C4CFEC8CD0",
+		"3": "0x39F68876976839EC"
+	},
+	"$textureTypes": {
+		"0": "unavailable",
+		"1": "unavailable",
+		"2": "unavailable",
+		"3": "unavailable"
+	},
+	"$depthShadowMaterial": "0x0",
+	"$depthPrepassMaterial": "0x0",
+	"$depthVSMMaterial": "0x0",
+	"$depthShadowTightMaterial": "0x0",
+	"$colpassMaterial": "0x0",
+	"$textureAnimation": "0x0"
+}

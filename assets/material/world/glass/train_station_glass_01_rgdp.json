@@ -1,0 +1,48 @@
+{
+	"name": "world/glass/train_station_glass_01",
+	"width": 2048,
+	"height": 2048,
+	"depth": 0,
+	"glueFlags": "0x560000a2",
+	"glueFlags2": "0x100000",
+	"blendStates": [
+		"0xF0138286",
+		"0xF0138286",
+		"0xF0008286",
+		"0xF0000000",
+		"0xF0138286",
+		"0x0",
+		"0x80500002",
+		"0x0"
+	],
+	"blendStateMask": "0x5",
+	"depthStencilFlags": "0x7",
+	"rasterizerFlags": "0x2",
+	"uberBufferFlags": "0x0",
+	"features": "0x1F5A92BD",
+	"samplers": "0x1D0300",
+	"surfaceProp": "glass",
+	"surfaceProp2": "",
+	"shaderType": "rgdp",
+	"shaderSet": "0x52208E7CE8C707F9",
+	"$textures": {
+		"0": "0x25F085E182781606",
+		"1": "0x984E508DC2F973DF",
+		"2": "0x6B0220CACD088DF",
+		"3": "0x6BC8C772175B7109",
+		"4": "0xA20C76727E909A48"
+	},
+	"$textureTypes": {
+		"0": "albedoTexture",
+		"1": "normalTexture",
+		"2": "glossTexture",
+		"3": "specTexture",
+		"4": "emissiveTexture"
+	},
+	"$depthShadowMaterial": "0x0",
+	"$depthPrepassMaterial": "0x0",
+	"$depthVSMMaterial": "0x0",
+	"$depthShadowTightMaterial": "0x0",
+	"$colpassMaterial": "0x0",
+	"$textureAnimation": "0x0"
+}

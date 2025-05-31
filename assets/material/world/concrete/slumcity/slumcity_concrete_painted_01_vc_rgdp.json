@@ -1,0 +1,46 @@
+{
+	"name": "world/concrete/slumcity/slumcity_concrete_painted_01_vc",
+	"width": 2048,
+	"height": 2048,
+	"depth": 0,
+	"glueFlags": "0x56000020",
+	"glueFlags2": "0x100000",
+	"blendStates": [
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000"
+	],
+	"blendStateMask": "0x4",
+	"depthStencilFlags": "0x17",
+	"rasterizerFlags": "0x6",
+	"uberBufferFlags": "0x0",
+	"features": "0x1F5A92BD",
+	"samplers": "0x1D0300",
+	"surfaceProp": "concrete",
+	"surfaceProp2": "",
+	"shaderType": "rgdp",
+	"shaderSet": "0x737B16232B86AD72",
+	"$textures": {
+		"0": "0xD289B009D32848A6",
+		"1": "0x689A3F804A402CF4",
+		"2": "0xB21588032994D64A",
+		"3": "0x1861F19A6E3F799A"
+	},
+	"$textureTypes": {
+		"0": "albedoTexture",
+		"1": "normalTexture",
+		"2": "glossTexture",
+		"3": "unavailable"
+	},
+	"$depthShadowMaterial": "0x251FBE09EFFE8AB1",
+	"$depthPrepassMaterial": "0xE2D52641AFC77395",
+	"$depthVSMMaterial": "0xBDBF90B97E7D9280",
+	"$depthShadowTightMaterial": "0x85654E05CF9B40E7",
+	"$colpassMaterial": "0xC7B88910FDC28335",
+	"$textureAnimation": "0x0"
+}

@@ -1,0 +1,48 @@
+{
+	"name": "models/mendoko/interior/panel_trim_mendoko/panel_trim_mendoko_colpass",
+	"width": 1024,
+	"height": 1024,
+	"depth": 0,
+	"glueFlags": "0x56000020",
+	"glueFlags2": "0x100000",
+	"blendStates": [
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000"
+	],
+	"blendStateMask": "0x4",
+	"depthStencilFlags": "0x5",
+	"rasterizerFlags": "0x6",
+	"uberBufferFlags": "0x0",
+	"features": "0x1F5A92BD",
+	"samplers": "0x1D0300",
+	"surfaceProp": "metalpanel",
+	"surfaceProp2": "",
+	"shaderType": "rgdp",
+	"shaderSet": "0x75AB3C79B6CB8EE8",
+	"$textures": {
+		"0": "0xF097E061B791C615",
+		"1": "0x38ECFF6CF7F83AE",
+		"2": "0xDC98B7DA3C00524",
+		"3": "0xD4B0F1F9BCE1D00D",
+		"5": "0x5F1D1D33BC2DDCA7"
+	},
+	"$textureTypes": {
+		"0": "unavailable",
+		"1": "unavailable",
+		"2": "unavailable",
+		"3": "unavailable",
+		"5": "unavailable"
+	},
+	"$depthShadowMaterial": "0x251FBE09EFFE8AB1",
+	"$depthPrepassMaterial": "0xE2D52641AFC77395",
+	"$depthVSMMaterial": "0xBDBF90B97E7D9280",
+	"$depthShadowTightMaterial": "0x85654E05CF9B40E7",
+	"$colpassMaterial": "0x0",
+	"$textureAnimation": "0x0"
+}

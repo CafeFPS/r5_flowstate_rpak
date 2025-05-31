@@ -1,0 +1,48 @@
+{
+	"name": "world/floors/rubber_floor_2_colpass",
+	"width": 1024,
+	"height": 1024,
+	"depth": 0,
+	"glueFlags": "0x56000020",
+	"glueFlags2": "0x100000",
+	"blendStates": [
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000",
+		"0xF0000000"
+	],
+	"blendStateMask": "0x4",
+	"depthStencilFlags": "0x5",
+	"rasterizerFlags": "0x6",
+	"uberBufferFlags": "0x0",
+	"features": "0x1F5A92BD",
+	"samplers": "0x1D0300",
+	"surfaceProp": "rubber",
+	"surfaceProp2": "",
+	"shaderType": "rgdp",
+	"shaderSet": "0x9CB8936DBE2B871A",
+	"$textures": {
+		"0": "0x966C648590889944",
+		"1": "0x8C920BD94AD50E42",
+		"2": "0xCEACCD94C28DCD06",
+		"3": "0xFB5FA8A000470F47",
+		"6": "0xA8D5880F9C4CE8CB"
+	},
+	"$textureTypes": {
+		"0": "albedoTexture",
+		"1": "normalTexture",
+		"2": "glossTexture",
+		"3": "unavailable",
+		"6": "cavityTexture"
+	},
+	"$depthShadowMaterial": "0x251FBE09EFFE8AB1",
+	"$depthPrepassMaterial": "0xE2D52641AFC77395",
+	"$depthVSMMaterial": "0xBDBF90B97E7D9280",
+	"$depthShadowTightMaterial": "0x85654E05CF9B40E7",
+	"$colpassMaterial": "0x0",
+	"$textureAnimation": "0x0"
+}
