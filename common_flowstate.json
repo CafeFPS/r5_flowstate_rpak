@@ -2227,6 +2227,10 @@
       "_path": "material/texture/models/flowstate_custom/lightninggun_body_sknp.rpak"
     },
     {
+      "_type": "matl",
+      "_path": "material/models/weapons_r5/loot/armor/w_loot_wep_iso_armor_energy_01_tier5_rgdp.rpak"
+    },
+    {
       "_type": "mdl_",
       "_path": "mdl/flowstate/highrise_rectangle_top_01.rmdl"
     },
@@ -2263,6 +2267,10 @@
       "$animrigs": [
         "animrig/weapons/defender/ptpov_defender.rrig"
       ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/weapons_r5/loot/_master/w_loot_cha_shield_upgrade_body_v1_lvl5.rmdl"
     }
   ]
 }
