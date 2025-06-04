@@ -1,0 +1,15 @@
+ 
+
+{
+    "version": 8,
+    "keepDevOnly": false,
+    "keepClientOnly": false,
+
+    "outputDir": "./paks/Win64_server/",
+    "showDebugInfo": false,
+    
+    "paks": [
+        "common_flowstate.json",
+        "fs_spawns.json"
+    ]
+}
