@@ -1,0 +1,39 @@
+{
+  "version": 8,
+  "keepDevOnly": true,
+  "name": "pulseblade",
+  "streamFileMandatory": "paks/Win64/pulseblade.starpak",
+  "streamFileOptional": "paks/Win64/pulseblade.opt.starpak",
+  "assetsDir": "./assets/",
+  "outputDir": "./build/",
+  "compressLevel": 6,
+  "compressWorkers": 16,
+  "files": [
+	{
+     "_type": "arig",
+     "_path" : "animrig/weapons/kunai/ptpov_kunai.rrig",
+     "$sequences" : [
+        "animseq/kunai/toss_prep_pullout_seq.rseq",
+        "animseq/kunai/toss_prep_pullout_onehanded_seq.rseq",
+        "animseq/kunai/toss_hold_seq.rseq",
+        "animseq/kunai/toss_seq.rseq",
+        "animseq/kunai/toss_onehanded_seq.rseq",
+        "animseq/kunai/sprint_seq.rseq",
+        "animseq/kunai/meleeknife_seq_01.rseq",
+        "animseq/kunai/meleeknife_seq_02.rseq",
+        "animseq/kunai/meleeknife_seq_03.rseq",
+        "animseq/kunai/meleeknife_seq_04.rseq",
+        "animseq/kunai/meleeknife_seq_05.rseq",
+        "animseq/kunai/meleekick_seq_01.rseq",
+        "animseq/kunai/meleekick_seq_02.rseq"
+      ]
+    }, 	
+    {
+      "_type": "mdl_",
+      "_path": "mdl/weapons/grenades/ptpov_kunai.rmdl",
+      "$animrigs": [
+        "animrig/weapons/shuriken/ptpov_shuriken_held.rrig"
+      ]
+    }
+  ]
+}

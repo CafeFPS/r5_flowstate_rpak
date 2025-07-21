@@ -4,7 +4,7 @@
   "name": "common_flowstate",
   "streamFileMandatory": "paks/Win64/pc_fs.starpak",
   "streamFileOptional": "paks/Win64/pc_fs.opt.starpak",
-  "streamCache": "cache/pc_roots.starmap",
+  "streamCache": "cache/pc_all.starmap",
   "streamCacheFilter": [
       "paks/Win64/pc_all.starpak",
       "paks/Win64/pc_all.opt.starpak",
@@ -13,12 +13,44 @@
       "paks/Win64/pc_all(03).starpak",
       "paks/Win64/pc_all(03).opt.starpak"
     ],
-  //"keepClientOnly": false,
+  // "keepClientOnly": false,
   "assetsDir": "./assets/",
   "outputDir": "./build/",
   "compressLevel": 6,
   "compressWorkers": 16,
   "files": [
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/loybadges.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/nextbots.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/emotescustom.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_all_new.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_snd_buy_menu_data.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_scenarios_score_system.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_audio.rpak"
+	},
+	{
+	  "_type": "dtbl",
+	  "_path": "datatable/flowstate_all_new_snd.rpak"
+	},
     {
       "_type": "shdr",
       "_path": "shader/0x17FD7D6D176BD7EE.rpak",
@@ -1494,7 +1526,11 @@
       "_path": "texture/0xFE86FB0E54D4A58B.rpak",
       "$guid": "0xFE86FB0E54D4A58B"
     },
-    {
+	{
+	  "_type": "matl",
+	  "_path": "material/world/dev/dev_fs_rgdp.rpak"
+	},
+	{
       "_type": "matl",
       "_path": "material/depth/models/beacon/beacon_server_01/beacon_server_01_on_shadow_rgdp.rpak"
     },
@@ -2050,6 +2086,338 @@
       "_type": "matl",
       "_path": "material/world/walls/building_walls_metal_03_rgdp.rpak"
     },
+	// CUSTOM
+	{
+      "_type": "matl",
+      "_path": "material/models/flowstatecustom/charm_nickmercs_sknp.rpak"
+    },
+	{
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/nickmercs/accesorios_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/nickmercs/piel_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/nickmercs/ropa_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/nickmercs/capucha_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/nickmercs/capa_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/nickmercs/face_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/titan_sword_01_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/weapons_r5/misc_nova_repulsor/repulsor_sknp.rpak"
+    },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/lightsaber/beam_sknp.rpak"
+    // },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/lightsaber/handle2_sknp.rpak"
+    // },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/lightsaber/handle_sknp.rpak"
+    // },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/oddball/eyes_sknp.rpak"
+    // },
+    // {
+      // "_type": "matl",
+      // "_path": "material/models/flowstate_custom/oddball/main_sknp.rpak"
+    // },
+    {
+      "_type": "matl",
+      "_path": "material/none_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/bomb_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/mri_male_v1_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/sc_agent/tex_0124_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/sc_agent/tex_0133_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/sc_agent/tex_0130_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/sc_agent/tex_0097_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/sc_agent/tex_0121_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/sc_agent/tex_0139_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/sc_agent/tex_0127_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/sc_agent/tex_0118_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/sc_agent/tex_0136_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/sc_agent/tex_0114_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/needler/amogus_body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/phantom/body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/phantom/glass_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/phantom/hair_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/phantom/head_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/phantom/mask_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/raygun/battery_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/raygun/body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/raygun/reddot_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/rhapsody/body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/rhapsody/hair_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/rhapsody/head_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/weapons_r5/grenades/impulse_grenade_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/weapons/vctblue/vctblue_body_sknp.rpak"
+    },
+    // {
+      // "_type": "matl",
+      // "_path": "material/default_material_rgdp.rpak"
+    // },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/ctf/flag_base_pole_red_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/ctf/flag_base_pole_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/flowstate_custom/ctf/terminal_com_station_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/texture/models/flowstate_custom/lightninggun_body_sknp.rpak"
+    },
+    {
+      "_type": "matl",
+      "_path": "material/models/weapons_r5/loot/armor/w_loot_wep_iso_armor_energy_01_tier5_rgdp.rpak"
+    },
+// {
+     // "_type": "arig",
+     // "_path" : "mdl/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom.rrig",
+     // "$sequences" : [
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/idle.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/idle_airsprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/idle_air.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/idle_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/idle_onehanded_airsprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/idle_onehanded_sprinting.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/idle_to_sprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/regrip_to_idle.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprint_to_idle.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/drawfirst_Ben.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/drawfirst_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/drawsprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/drawsprint_spin.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/drawsprint_twist.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/draw.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/draw_airsprint_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/draw_button.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/draw_eureka.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/draw_flip.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/draw_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/draw_regrip.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/draw_roll.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/draw_spinToss.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/draw_spiral.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/draw_sprinting_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/draw_to_sprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/holster.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/holster_02.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/holster_airsprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/holster_airsprint_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/holster_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/holster_sprinting_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprintholster.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/jump.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/jump_sliding.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/jump_sprinting.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_jump.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_jump_airsprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprintjump.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprintjump_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/land.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/land_airsprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/land_high.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/land_high_airsprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/land_high_sliding.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/land_low.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/land_low_airsprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/land_low_sliding.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/land_med.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/land_med_airsprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/land_med_sliding.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/land_sliding.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/meleeraise.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/meleeraise_crouch.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/meleeraise_flip.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/meleeraise_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/meleeraise_pet.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/meleeraise_quick.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_crouch.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_doorKick.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_overhead.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_pen.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_repulsor.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_sliding.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_sprinting.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_sprinting_baseball_swing.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_sprinting_crossedarms.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_sprinting_flail.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_stab.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/melee_whack.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/raise.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/raise_airsprint_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/raise_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/raise_sprinting.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/raise_sprinting_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprintraise.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprintraise_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/lower.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/lower_airsprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/lower_airsprint_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/lower_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/lower_sprinting.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/lower_sprinting_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/crouch_airsprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/crouch_to_sprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprintslide.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprintslide_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprint_cam_layer.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprint_cam_layer_copy1.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprint_cam_layer_copy2.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprint_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/sprint_to_crouch.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/zipline_mount_airsprint.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/zipline_mount_sprinting.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/inspect_battery.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/inspect_beloved.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/inspect_OrbitNessie.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/inspect_Orbit.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/inspect_pen.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/crouch.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/crouch_air.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/regrip_to_crouch.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/menu.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/switch_to_onehanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/switch_to_twohanded.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/walk_layer.rseq",
+        // "animseq/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom/zipline_mount.rseq"
+      // ]
+    // },
+	{
+        "_type": "arig",
+        "_path": "animrig/holospray/ptpov_holo_spray.rrig",
+        "$sequences": [
+			"animseq/weapons/holo_spray/ptpov_holo_spray/toss.rseq",
+			"animseq/weapons/holo_spray/ptpov_holo_spray/toss_overhead.rseq",
+			"animseq/weapons/holo_spray/ptpov_holo_spray/toss_prep_pullout.rseq"
+		]
+	},
+    {
+      "_type": "arig",
+      "_path": "animrig/weapons/ptpov_repulsor_held/ptpov_repulsor_held.rrig",
+      "$sequences": [
+        "animseq/weapons/repulsor/ptpov_repulsor_held/idle_seq_autoplay.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/jump.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/land.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/land_high.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/land_low.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/land_med.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/toss_hold_seq.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/toss_hold_sprinting_seq.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/toss_low_seq.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/toss_overhead_seq.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/toss_prep_pullout_seq.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/toss_prep_pullout_sprint_seq.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/trans_to_hold.rseq",
+        "animseq/weapons/repulsor/ptpov_repulsor_held/trans_to_sprint.rseq"
+      ]
+    },
     {
       "_type": "mdl_",
       "_path": "mdl/angel_city/fire_hydrant_03.rmdl"
@@ -2174,62 +2542,6 @@
       "_type": "mdl_",
       "_path": "mdl/signs/street_sign_arrow.rmdl"
     },
-	{
-	  "_type": "dtbl",
-	  "_path": "datatable/loybadges.rpak"
-	},
-	{
-	  "_type": "dtbl",
-	  "_path": "datatable/nextbots.rpak"
-	},
-	{
-	  "_type": "dtbl",
-	  "_path": "datatable/emotescustom.rpak"
-	},
-	{
-	  "_type": "dtbl",
-	  "_path": "datatable/flowstate_all_new.rpak"
-	},
-	{
-	  "_type": "dtbl",
-	  "_path": "datatable/flowstate_snd_buy_menu_data.rpak"
-	},
-	{
-	  "_type": "dtbl",
-	  "_path": "datatable/flowstate_scenarios_score_system.rpak"
-	},
-	{
-	  "_type": "dtbl",
-	  "_path": "datatable/flowstate_audio.rpak"
-	},
-	{
-	  "_type": "dtbl",
-	  "_path": "datatable/flowstate_all_new_snd.rpak"
-	},
-    {
-      "_type": "matl",
-      "_path": "material/default_material_rgdp.rpak"
-    },
-    {
-      "_type": "matl",
-      "_path": "material/models/flowstate_custom/ctf/flag_base_pole_red_sknp.rpak"
-    },
-    {
-      "_type": "matl",
-      "_path": "material/models/flowstate_custom/ctf/flag_base_pole_sknp.rpak"
-    },
-    {
-      "_type": "matl",
-      "_path": "material/models/flowstate_custom/ctf/terminal_com_station_sknp.rpak"
-    },
-    {
-      "_type": "matl",
-      "_path": "material/texture/models/flowstate_custom/lightninggun_body_sknp.rpak"
-    },
-    {
-      "_type": "matl",
-      "_path": "material/models/weapons_r5/loot/armor/w_loot_wep_iso_armor_energy_01_tier5_rgdp.rpak"
-    },
     {
       "_type": "mdl_",
       "_path": "mdl/flowstate/highrise_rectangle_top_01.rmdl"
@@ -2238,39 +2550,226 @@
       "_type": "mdl_",
       "_path": "mdl/flowstate/highrise_square_top_01.rmdl"
     },
+	// CUSTOM
     {
       "_type": "mdl_",
-      "_path": "mdl/flowstate_custom/ptpov_flagpole.rmdl",
+      "_path": "mdl/weapons_r5/loot/_master/w_loot_cha_shield_upgrade_body_v1_lvl5.rmdl" // RED SHIELD
+    },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom.rmdl", // TEST
+      // "$animrigs": [
+        // "mdl/weapons/ptpov_horizon_heirloom/ptpov_horizon_heirloom.rrig"
+      // ]
+    // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/holo_spray/ptpov_holo_spray.rmdl", // HOLO SPRAY POV MODEL
+      "$animrigs": [
+        "animrig/holospray/ptpov_holo_spray.rrig"
+      ]
+    },
+	{
+	  "_type": "mdl_",
+	  "_path": "mdl/Weapons/holo_spray/w_holo_spray.rmdl", // HOLO SPRAY 
+	},
+	{
+	  "_type": "mdl_",
+	  "_path": "mdl/props/holo_spray/holo_spray_base.rmdl" // HOLO SPRAY 
+	},
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/flowstate_custom/ptpov_oddball.rmdl", //NOT USED RN, ADD WHEN HALO IS FIXED
+      // "$animrigs": [
+        // "animrig/weapons/mirage_heirloom/ptpov_statue_mirage.rrig"
+      // ]
+    // },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/flowstate_custom/w_oddball.rmdl" //NOT USED RN, ADD WHEN HALO IS FIXED
+    // },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Weapons/lightsaber/ptpov_lightsaber.rmdl", //NEED FIX
+      // "$animrigs": [
+        // "animrig/weapons/bloodhound_axe/ptpov_axe_bloodhound.rrig"
+      // ]
+    // },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Weapons/lightsaber/w_lightsaber.rmdl" //NEED FIX
+    // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/ptpov_flowstate_sword.rmdl", //FS TITAN SWORD
       "$animrigs": [
         "animrig/weapons/bloodhound_axe/ptpov_axe_bloodhound.rrig"
       ]
     },
     {
       "_type": "mdl_",
-      "_path": "mdl/signs/flag_base_pole_ctf_red.rmdl"
+      "_path": "mdl/flowstate_custom/w_flowstate_sword.rmdl" //FS TITAN SWORD
+    },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Weapons/bomb/ptpov_bomb.rmdl", //NOT USED RN, ADD WHEN SND IS FIXED
+      // "$animrigs": [
+        // "animrig/weapons/rampart_wall/ptpov_rampart_wall_held.rrig"
+      // ]
+    // },
+    // {
+      // "_type": "mdl_",
+      // "_path": "mdl/Weapons/bomb/w_bomb.rmdl" //NOT USED RN, ADD WHEN  SND IS FIXED
+    // },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/ptpov_flagpole.rmdl", //USED IN CTF MODE
+      "$animrigs": [
+        "animrig/weapons/bloodhound_axe/ptpov_axe_bloodhound.rrig"
+      ]
     },
     {
       "_type": "mdl_",
-      "_path": "mdl/signs/flag_base_pole_ctf.rmdl"
+      "_path": "mdl/signs/flag_base_pole_ctf_red.rmdl" //USED IN CTF MODE
     },
     {
       "_type": "mdl_",
-      "_path": "mdl/communication/flag_base.rmdl"
+      "_path": "mdl/signs/flag_base_pole_ctf.rmdl" //USED IN CTF MODE
     },
     {
       "_type": "mdl_",
-      "_path": "mdl/flowstate_custom/w_lightninggun.rmdl"
+      "_path": "mdl/communication/flag_base.rmdl" //USED IN CTF MODE
     },
     {
       "_type": "mdl_",
-      "_path": "mdl/flowstate_custom/ptpov_lightninggun.rmdl",
+      "_path": "mdl/flowstate_custom/w_lightninggun.rmdl" // FS LIGHTNING GUN
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/ptpov_lightninggun.rmdl", // FS LIGHTNING GUN
       "$animrigs": [
         "animrig/weapons/defender/ptpov_defender.rrig"
       ]
     },
     {
       "_type": "mdl_",
-      "_path": "mdl/weapons_r5/loot/_master/w_loot_cha_shield_upgrade_body_v1_lvl5.rmdl"
-    }
+      "_path": "mdl/Weapons/vctblue/vctblue_ptpov.rmdl", // VCTBLUE HEIRLOOM
+      "$animrigs": [
+        "animrig/weapons/kunai/ptpov_kunai_wraith.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/vctblue_w/vctblue_w.rmdl" // VCTBLUE HEIRLOOM
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/ptpov_raygun/ptpov_raygun.rmdl", // RAYGUN POV
+      "$animrigs": [
+        "animrig/weapons/b3wing/ptpov_b3wing.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Weapons/w_raygun/w_raygun.rmdl" // RAYGUN W MODEL
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/w_amogino.rmdl", // AMOGUS
+      "$animrigs": [
+        "animrig/humans/class/light/mp_pilot_light_core.rrig",
+        "animrig/humans/class/light/pilot_light_support.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/w_phantom.rmdl", // FADE
+      "$animrigs": [
+        "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/ptpov_phantom.rmdl", // FADE
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/w_rhapsody.rmdl", // RHAPSODY
+      "$animrigs": [
+        "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        "animrig/humans/class/medium/pilot_medium_bangalore.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/ptpov_rhapsody.rmdl", // RHAPSODY
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/ptpov_pete_mri.rmdl", // PETE MRI POV
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/w_pete_mri.rmdl", // PETE MRI
+      "$animrigs": [
+        "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/w_agent.rmdl", // SPLINTER CELL AGENT POV MODEL
+      "$animrigs": [
+        "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/ptpov_agent.rmdl", // SPLINTER CELL AGENT 
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/w_nickmercs_hodded.rmdl", // NICK HODDED
+      "$animrigs": [
+        "animrig/humans/class/medium/mp_pilot_medium_core.rrig",
+        "animrig/humans/class/medium/pilot_medium_bloodhound.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/Humans/pilots/ptpov_nickmercs_hodded.rmdl", // NICK HODDED 
+      "$animrigs": [
+        "animrig/weapons/arms/pov_mp_core.rrig"
+      ]
+    },
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/charm_nickmercs.rmdl", // NICK WEAPON CHARM
+    },
+	{
+	  "_type": "mdl_",
+	  "_path": "mdl/Weapons/ptpov_repulsor_held/ptpov_repulsor_held.rmdl", // HORIZON'S TACTICAL
+	  "$animrigs": [
+	    "animrig/weapons/ptpov_repulsor_held/ptpov_repulsor_held.rrig"
+	  ]	
+	},
+    {
+      "_type": "mdl_",
+      "_path": "mdl/flowstate_custom/cafe_floor.rmdl", // FLOOR
+    }	
   ]
 }

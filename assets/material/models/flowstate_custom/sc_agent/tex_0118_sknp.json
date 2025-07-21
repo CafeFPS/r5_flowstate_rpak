@@ -1,0 +1,43 @@
+{
+    "name": "models/flowstate_custom/sc_agent/tex_0118",
+    "width": 2048,
+    "height": 2048,
+    "depth": 0,
+    "glueFlags": "0x56000420",
+    "glueFlags2": "0x0",
+    "blendStates": [
+        "0xF0000000",
+        "0xF0000000",
+        "0xF0000000",
+        "0xF0000000",
+        "0xF0000000",
+        "0xF0000000",
+        "0xF0000000",
+        "0xF0000000"
+    ],
+    "blendStateMask": "0x4",
+    "depthStencilFlags": "0x17",
+    "rasterizerFlags": "0x6",
+    "uberBufferFlags": "0x0",
+    "features": "0x1F5A92BD",
+    "samplers": "0x1D0300",
+    "surfaceProp": "default",
+    "surfaceProp2": "",
+    "shaderType": "sknp",
+    "shaderSet": "0x97E4F7D956E5E6CE",
+    "$textures": {
+        "0": "texture/models/flowstate_custom/sc_agent/Tex_0118_0_col.rpak",
+        "1": "texture/models/flowstate_custom/sc_agent/Tex_0118_0_nml.rpak",
+        "2": "texture/models/flowstate_custom/sc_agent/Tex_0118_0_gls.rpak",
+		"3": "0x556001E2EBAFD73E",
+		"4": "0x9A7A54C5DEFDFDCC",
+		"5": "0x9A7A54C5DEFDFDCC",
+		"6": "0xC26AAAFF2B114147"
+    },
+    "$depthShadowMaterial": "0x2B93C99C67CC8B51",
+    "$depthPrepassMaterial": "0x1EBD063EA03180C7",
+    "$depthVSMMaterial": "0xF95A7FA9E8DE1A0E",
+    "$depthShadowTightMaterial": "0x227C27B608B3646B",
+    "$colpassMaterial": "0x0",
+    "$textureAnimation": "0x0"
+}
