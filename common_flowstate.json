@@ -4,7 +4,7 @@
   "name": "common_flowstate",
   "streamFileMandatory": "paks/Win64/pc_fs.starpak",
   "streamFileOptional": "paks/Win64/pc_fs.opt.starpak",
-  "streamCache": "cache/pc_roots.starmap",
+  "streamCache": "cache/pc_all.starmap",
   "streamCacheFilter": [
       "paks/Win64/pc_all.starpak",
       "paks/Win64/pc_all.opt.starpak",
